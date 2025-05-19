@@ -426,11 +426,11 @@ body {
 }
 .glow {
   position: absolute;
-  width: 1000px;
-  height: 500px;
-  right: -20%;
-  bottom: -20%;
-  background: linear-gradient(	180deg,	rgba(255, 122, 0, 0.5),	rgba(255, 0, 0, 0.5)	);
+  height: 50vh;
+  width: 50vw;
+  right: -25%;
+  bottom: -25%;
+  background: linear-gradient(rgba(255, 122, 0, 0.5), rgba(255, 0, 0, 0.5));
   filter: blur(400px);
 }
 @media screen and (max-width: 1536px) {
