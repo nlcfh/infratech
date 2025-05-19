@@ -26,10 +26,10 @@ body {
 
 	background: linear-gradient(
 		180deg,
-		rgba(255, 122, 0, 0.87) -5.66%,
-		rgba(255, 0, 0, 0.87) 89.7%
+		rgba(255, 122, 0, 0.5) -6%,
+		rgba(255, 0, 0, 0.5) 90%
 	);
-	filter: blur(407px);
+	filter: blur(400px);
 }
 
 @media screen and (max-width: 1536px) {
