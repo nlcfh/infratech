@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<main class="h-full">
-			<div class="h-screen p-16 relative z-10 overflow-hidden">
+			<div class="md:h-screen h-[50vh] p-16 relative z-10 overflow-hidden">
 				<div class="h-full relative z-10 flex gap-2.5 flex-col justify-between">
 					<div class="flex gap-28 items-center justify-between">
 						<div class="flex items-center">
@@ -35,7 +35,7 @@
 								<a
 									href="https://brief.infratech.top"
 									target="_blank"
-									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg bg-[#201E1E99] hover:bg-black transition"
+									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg hover:bg-[#e4e4e4] transition"
 								>
 									<img src="./images/checklist.svg" alt="" />
 									<span class="hidden md:inline">Заполнить заявку</span>
@@ -45,7 +45,7 @@
 								<a
 									href="https://t.me/infratech_support"
 									target="_blank"
-									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg bg-[#201E1E99] hover:bg-black transition"
+									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg hover:bg-[#e4e4e4] transition"
 								>
 									<img src="./images/paper-plane.svg" alt="" />
 									<span class="hidden md:inline">Задать вопрос</span>
@@ -55,28 +55,35 @@
 								<a
 									href="https://dsp.infratech.top"
 									target="_blank"
-									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg bg-[#FF4E13] hover:bg-[#cc5500] transition"
+									class="p-2.5 border border-[#FF4E13] hover:border-[#cc5500] rounded-md flex gap-2.5 items-center text-lg bg-[#FF4E13] hover:bg-[#e4270a] transition"
 								>
 									<img src="./images/login.svg" alt="" />
-									<span class="hidden md:inline">Личный кабинет</span>
+									<span class="hidden md:inline text-white"
+										>Личный кабинет</span
+									>
 								</a>
 							</div>
 						</div>
 					</div>
 
-					<div class="w-full md:w-3/4">
-						<h1 class="w-[80%] text-5xl font-semibold uppercase">
-							все digital рекламные экраны в одном сервисе
-						</h1>
-						<p class="w-[75%] mt-5 text-4xl font-[Manrope]">
+					<!-- <div class="w-full md:w-3/4"> -->
+					<h1 class="text-4xl font-semibold uppercase">наружная реклама 2.0</h1>
+					<!-- <p class="w-[75%] mt-5 text-4xl font-[Manrope]">
 							Наружная реклама с метриками по целевой аудитории, которая
 							работает в нужном месте и в нужное время. Оптимизируйте рекламный
 							бюджет
 							<span class="text-[#FF4E13] font-bold">до 50%</span>
 						</p>
+					</div> -->
+
+					<div class="space-y-5">
+						<p class="text-9xl font-semibold text-[#FF4E13]">18 000 +</p>
+						<p class="md:w-1/3 text-4xl font-[Manrope]">
+							Digital рекламных экранов в одной платформе OOHVAT DSP
+						</p>
 					</div>
 
-					<div class="flex flex-col md:flex-row gap-2.5">
+					<!-- <div class="flex flex-col md:flex-row gap-2.5">
 						<div
 							class="w-full py-2.5 2xl:py-10 border border-black rounded-xl text-center bg-[#201E1E99] backdrop-blur-xl"
 						>
@@ -95,16 +102,38 @@
 							<p class="text-6xl text-[#FF4E13] font-semibold">100 млн +</p>
 							<p class="text-4xl font-[Manrope]">уникальных зрителей</p>
 						</div>
-					</div>
+					</div> -->
+					<ul class="space-y-7 text-4xl font-semibold font-[Manrope]">
+						<li class="flex items-center gap-x-5">
+							<img
+								src="./images/arrow-icon.svg"
+								alt=""
+								class="max-h-12 object-cover"
+							/>
+							<span>300 + городов РФ</span>
+						</li>
+						<li class="flex items-center gap-x-5">
+							<img
+								src="./images/arrow-icon.svg"
+								alt=""
+								class="max-h-12 object-cover"
+							/>
+							<span>100 000 000+ аудитория</span>
+						</li>
+						<li class="flex items-center gap-x-5">
+							<img
+								src="./images/arrow-icon.svg"
+								alt=""
+								class="max-h-12 object-cover"
+							/>
+							<span>150+ операторов экранов</span>
+						</li>
+					</ul>
 
-					<div class="glow"></div>
+					<!-- <div class="glow"></div> -->
 				</div>
-				<div class="absolute right-0 bottom-0">
-					<img
-						src="./images/logo-bg.svg"
-						alt="logo"
-						class="pointer-events-none"
-					/>
+				<div class="w-1/2 md:block hidden absolute right-0 bottom-0">
+					<img src="./images/bg-1.svg" alt="logo" class="pointer-events-none" />
 				</div>
 			</div>
 
@@ -116,7 +145,7 @@
 
 					<div>
 						<h2 class="text-5xl uppercase">
-							подключено <span class="text-[#FF4E13]">242</span> города
+							подключено <span class="text-[#FF4E13]">300+</span> городов
 						</h2>
 					</div>
 
@@ -126,99 +155,139 @@
 						<div class="mt-14 flex gap-2.5 justify-between flex-wrap text-xl">
 							<div class="w-sm flex flex-col gap-5">
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">6230</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										7543
+									</div>
 									<p>Москва</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">1852</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										2368
+									</div>
 									<p>Санкт-Петербург</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">689</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										779
+									</div>
 									<p>Екатеринбург</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">633</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										867
+									</div>
 									<p>Нижний Новгород</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">460</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										347
+									</div>
 									<p>Новосибирск</p>
 								</div>
 							</div>
 
 							<div class="w-sm flex flex-col gap-5">
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">298</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										287
+									</div>
 									<p>Омск</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">235</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										356
+									</div>
 									<p>Ростов-на-Дону</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">234</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										311
+									</div>
 									<p>Казань</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">218</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										176
+									</div>
 									<p>Краснодар</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">203</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										223
+									</div>
 									<p>Барнаул</p>
 								</div>
 							</div>
 
 							<div class="w-sm flex flex-col gap-5">
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">298</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										248
+									</div>
 									<p>Тюмень</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">235</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										289
+									</div>
 									<p>Самара</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">234</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										196
+									</div>
 									<p>Хабаровск</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">218</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										191
+									</div>
 									<p>Чеялябинск</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">203</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										169
+									</div>
 									<p>Владивосток</p>
 								</div>
 							</div>
 
 							<div class="w-sm flex flex-col gap-5">
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">123</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										175
+									</div>
 									<p>Красноярск</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">102</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										156
+									</div>
 									<p>Мытищи</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">97</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										123
+									</div>
+									<p>Иркутск</p>
+								</div>
+								<div class="flex gap-10 items-center">
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										97
+									</div>
 									<p>Анапа</p>
 								</div>
 								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">94</div>
+									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13] text-white">
+										94
+									</div>
 									<p>Сочи</p>
-								</div>
-								<div class="flex gap-10 items-center">
-									<div class="px-3.5 py-2 rounded-md bg-[#FF4E13]">92</div>
-									<p>Иркутск</p>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="glow"></div>
+					<!-- <div class="glow"></div> -->
 				</div>
 				<div class="absolute top-0 right-0">
 					<img
@@ -228,9 +297,316 @@
 					/>
 				</div>
 			</div>
+
+			<div class="min-h-screen p-16 md:flex gap-x-2.5">
+				<div class="w-full flex flex-col items-center justify-between">
+					<div>
+						<img src="./images/img-1.svg" alt="" />
+					</div>
+					<div
+						class="h-1/2 w-full mt-6 p-10 space-y-2.5 border border-[#FF4E13] rounded-xl text-2xl font-[Manrope]"
+					>
+						<p class="text-3xl text-[#FF4E13] font-[Bounded]">
+							Наружная реклама
+						</p>
+						<p>
+							<span class="font-semibold">Билборд - </span>
+							<span>3x6 м</span>
+						</p>
+						<p>
+							<span class="font-semibold">Ситиборд -</span>
+							<span>3,7x2,7 м</span>
+						</p>
+						<p>
+							<span class="font-semibold">Суперсайт - </span>
+							<span>4x12 или 5x15 м</span>
+						</p>
+						<p>
+							<span class="font-semibold">Сити Формат - </span>
+							<span>120x180 см</span>
+						</p>
+						<p>
+							<span class="font-semibold">Медиафасады - </span>
+							<span
+								>крупноформатная медиа конструкция, расположенная на стене
+								здания (размер индивидуальный)</span
+							>
+						</p>
+					</div>
+				</div>
+				<div class="w-full flex flex-col items-center justify-between">
+					<div>
+						<img src="./images/img-2.svg" alt="" />
+					</div>
+					<div
+						class="h-1/2 w-full mt-6 p-10 space-y-2.5 border border-[#FF4E13] rounded-xl text-2xl font-[Manrope]"
+					>
+						<p class="text-3xl text-[#FF4E13] font-[Bounded]">Индор реклама</p>
+						<p>Конструкции расположены:</p>
+						<p class="font-semibold">ТЦ / БЦ</p>
+						<p class="font-semibold">Продуктовых супермаркетах</p>
+						<p class="text-xl text-gray-600">размер индивидуальный</p>
+						<p class="font-semibold">ПВЗ</p>
+						<p class="text-xl text-gray-600">пункт выдачи заказов</p>
+					</div>
+				</div>
+				<div class="w-full flex flex-col items-center justify-between">
+					<div>
+						<img src="./images/img-3.svg" alt="" />
+					</div>
+					<div
+						class="h-1/2 w-full mt-6 p-10 space-y-2.5 border border-[#FF4E13] rounded-xl text-2xl font-[Manrope]"
+					>
+						<p class="text-3xl text-[#FF4E13] font-[Bounded]">
+							Транзитная реклама
+						</p>
+						<p class="font-semibold">
+							Реклама в метрополитенах, аэропортах и ЖД вокзалах
+						</p>
+						<p class="text-xl text-gray-600">размер индивидуальный</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="md:h-screen p-16 md:flex gap-x-2.5">
+				<div class="flex">
+					<div class="md:w-1/2 w-full flex flex-col justify-between gap-y-10">
+						<p class="text-4xl font-semibold">
+							<span class="text-[#FF4E13]">Новые возможности управления</span>
+							рекламной кампанией для рекламодателя
+						</p>
+						<ul class="space-y-11 text-2xl font-semibold font-[Manrope]">
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span>
+									Запуск любого количества рекламных кампаний (РК) из одного
+									личного кабинета
+								</span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span>
+									Приостановка РК, настройки показов, изменение адресной
+									программы экранов, замена креатива и другие опции доступны в
+									любой момент времени
+								</span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span>
+									Аналитика по охвату аудитории каждого экрана и рекламной
+									кампании в режиме онлайн
+								</span>
+							</li>
+						</ul>
+						<div></div>
+					</div>
+					<div class="w-1/2 md:flex hidden items-center">
+						<img src="./images/bg-2.svg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="md:h-screen p-16 md:flex gap-x-2.5">
+				<div class="flex">
+					<div class="md:w-1/2 w-full flex flex-col justify-between gap-y-10">
+						<p class="text-4xl font-semibold">
+							<span class="text-[#FF4E13]">Основные</span>
+							полезные настройки
+						</p>
+						<ul class="space-y-11 text-2xl font-semibold font-[Manrope]">
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span>
+									Ограничение максимального дневного лимита на расходование
+									баланса
+								</span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span> Интервалы между показами рекламы </span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span> Дни недели и конкретные часы показа рекламы </span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span> Ротация разных креативов на одном экране </span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span> Дни недели и конкретные часы показа рекламы </span>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<img
+									src="./images/arrow-icon.svg"
+									alt=""
+									class="max-h-12 object-cover"
+								/>
+								<span>
+									Индивидуальные настройки под каждый экран в рамках одной
+									рекламной кампании
+								</span>
+							</li>
+						</ul>
+						<div></div>
+					</div>
+					<div class="w-1/2 md:flex hidden items-center">
+						<img src="./images/bg-3.svg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="md:h-screen p-16 flex flex-col justify-between text-4xl">
+				<div>
+					<p class="w-4/5 font-semibold">
+						<span class="text-[#FF4E13]">Получайте максимальный OTS</span> и
+						распределяйте рекламный бюджет только на
+						<span class="text-[#FF4E13]">эффективное время показа рекламы</span>
+					</p>
+					<p class="mt-10 font-[Manrope]">
+						<span class="font-semibold">OTS — </span>количественный показатель
+						аудитории, которая потенциально могла увидеть конкретную рекламу
+					</p>
+				</div>
+
+				<div>
+					<div class="w-full">
+						<img class="w-full" src="./images/chart.svg" alt="" />
+					</div>
+					<div class="flex justify-between text-3xl font-[Manrope]">
+						<p>ночное время</p>
+						<p>утреннее время</p>
+						<p>дневное время</p>
+						<p>вечернее время</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="md:h-screen mt-10 p-16 md:flex gap-x-2.5">
+				<div class="flex">
+					<div class="md:w-1/2 w-full flex flex-col justify-between gap-y-10">
+						<p class="text-4xl font-semibold">
+							Техническая <span class="text-[#FF4E13]">перед</span>
+							запуском РК
+						</p>
+						<ol class="space-y-11 text-2xl font-semibold font-[Manrope]">
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-5 bg-[#FF4E13] rounded-xl text-white">1</p>
+								<p>
+									Подбор адресной программы с лучшими OTS и стоимостью
+									размещения
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">2</p>
+								<p>
+									Подготовка медиа-плана под задачи и бюджет рекламодателя,
+									настройки рекламной кампании
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">3</p>
+								<p>
+									Подготовка креатива перед модерацией операторов (адаптация под
+									технические требования)
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">4</p>
+								<p>Прохождение модерации и отработка замечаний</p>
+							</li>
+						</ol>
+						<div></div>
+					</div>
+					<div class="w-1/2 md:flex hidden items-center">
+						<img src="./images/bg-4.svg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="md:h-screen p-16 md:flex gap-x-2.5">
+				<div class="flex">
+					<div class="md:w-1/2 w-full flex flex-col justify-between gap-y-10">
+						<p class="text-4xl font-semibold">
+							Техническая <span class="text-[#FF4E13]">после</span> запуска РК
+						</p>
+						<ol class="space-y-11 text-2xl font-semibold font-[Manrope]">
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-5 bg-[#FF4E13] rounded-xl text-white">1</p>
+								<p>
+									Мониторинг хода рекламной кампании, контроль показов, процента
+									выкупа показов
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">2</p>
+								<p>
+									Контроль работоспособности выбранных экранов, отработка
+									технических вопросов с операторами
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">3</p>
+								<p>
+									Предоставление промежуточной и итоговой отчетности по
+									рекламным кампаниям
+								</p>
+							</li>
+							<li class="flex items-center gap-x-5">
+								<p class="py-2 px-4 bg-[#FF4E13] rounded-xl text-white">4</p>
+								<p>
+									Перезапуск, настройки, замена креатива, изменение адресной
+									программы и любые другие другие доступные корректировки по
+									ходу рекламной кампании
+								</p>
+							</li>
+						</ol>
+						<div></div>
+					</div>
+					<div class="w-1/2 md:flex hidden items-center">
+						<img src="./images/bg-5.svg" alt="" />
+					</div>
+				</div>
+			</div>
 		</main>
 
-		<footer class="mt-8 p-8 relative z-10 flex justify-between bg-[#151313]">
+		<footer
+			class="mt-8 p-8 relative z-10 flex justify-between bg-[#151313] text-white"
+		>
 			<div class="flex gap-4 flex-col">
 				<p>ООО “ИнфраТех” ИНН 4205428436</p>
 				<p>Официальный партнер OOHVAT DSP</p>
@@ -241,7 +617,9 @@
 			<div class="flex gap-4 flex-col">
 				<p>8 (925) 111 50 00</p>
 				<p>info@infratech.top</p>
-				<p>@infratech_support</p>
+				<p>
+					<a href="https://t.me/infratech_support">@infratech_support</a>
+				</p>
 			</div>
 		</footer>
 	</body>

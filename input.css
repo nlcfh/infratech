@@ -12,12 +12,12 @@ body {
 }
 
 body {
-	background-color: #151313;
-	color: #fff;
+	background-color: #fff;
+	/* color: #fff; */
 	font-family: 'Bounded';
 }
 
-.glow {
+/* .glow {
 	position: absolute;
 	height: 50vh;
 	width: 50vw;
@@ -26,7 +26,7 @@ body {
 
 	background: linear-gradient(rgba(255, 122, 0, 0.5), rgba(255, 0, 0, 0.5));
 	filter: blur(400px);
-}
+} */
 
 @media screen and (max-width: 1536px) {
 	html {
